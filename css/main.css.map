@@ -1,9 +1,12 @@
 {
     "version": 3,
-    "mappings": "AAEA,AAAA,OAAO,CAAC;EACN,gBAAgB,ECHN,GAAG;CDId",
+    "mappings": "AIAA,ADAA,YCAY,CDAC;EACT,MAAM,EAAE,iBAAiB;EACzB,YAAY,EAAE,IAAI;EAClB,WAAW,EAAE,IAAI;CAClB;;ACJH,AAAA,YAAY,CAAC;EAET,UAAU,EHGA,OAAO;CGFpB",
     "sources": [
         "../sass/main.scss",
-        "../sass/utils/_variables.scss"
+        "../sass/utils/_variables.scss",
+        "../sass/utils/_global.scss",
+        "../sass/utils/_placeholder.scss",
+        "../sass/components/_header.scss"
     ],
     "names": [],
     "file": "main.css"

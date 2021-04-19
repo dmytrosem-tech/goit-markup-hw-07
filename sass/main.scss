@@ -1,5 +1,4 @@
 @import './utils/variables';
-
-.footer {
-  background-color: $mainColor;
-}
+@import './utils/global';
+@import './utils/placeholder';
+@import './components/header';
