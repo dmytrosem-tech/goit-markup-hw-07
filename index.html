@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="./dist/css/main.min.css" />
   </head>
   <body class="page">
-    <!-- Header section -->
+    <!-- Header section --> 
 
     <header class="page-header">
       <div class="flexy container">
@@ -96,7 +96,7 @@
         <div class="container">
           <h2 class="our-work__title">Чем мы занимаемся</h2>
           <ul class="work-list list flexy">
-            <li class="work-list__item">
+            <li class="work-list__item work-list__item--mright">
               <div class="work-list__thumb">
                 <img class="work-list__img" src="./images/note1.jpg" alt="note1" width="370" />
                 <div class="work-list__bg-box">
@@ -104,7 +104,7 @@
                 </div>
               </div>
             </li>
-            <li class="work-list__item">
+            <li class="work-list__item work-list__item--mright">
               <div class="work-list__thumb">
                 <img class="work-list__img" src="./images/note2.jpg" alt="note1" width="370" />
                 <div class="work-list__bg-box">
@@ -324,64 +324,73 @@
 
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
+
           <button data-modal-close class="cloze-hero-modal-btn">
-            <svg class="md-close-btn-icon" width="11" height="11">
+            <svg class="md-close-btn__icon" width="11" height="11">
               <use href="./images/sprite.svg#icon-close-black"></use>
             </svg>
           </button>
+
           <form class="callback-form">
-            <p class="md-title">Оставьте свои данные, мы вам перезвоним</p>
-            <label class="form-field">
-              <span class="callback-md-label-txt">Имя</span>
-              <input class="callback-md-input" type="text" name="user-name" id="user-name" />
-              <span class="callback-md-label-icon">
-                <svg class="md-form-input-icon" width="12" height="12">
+            <p class="callback-form__title">Оставьте свои данные, мы вам перезвоним</p>
+
+            <label class="callback-form-field">
+              <span class="callback-form-field__label-txt">Имя</span>
+              <input class="callback-form-field__input" type="text" name="user-name" id="user-name" />
+              <span class="callback-form-field__icon">
+                <svg class="callback-form-field__input-icon" width="12" height="12">
                   <use href="./images/sprite.svg#icon-person-black"></use>
                 </svg>
               </span>
             </label>
-            <label class="form-field">
-              <span class="callback-md-label-txt">Телефон</span>
-              <input class="callback-md-input" type="tel" name="tel" id="tel" />
-              <span class="callback-md-label-icon">
-                <svg class="md-form-input-icon" width="12" height="12">
+
+            <label class="callback-form-field">
+              <span class="callback-form-field__label-txt">Телефон</span>
+              <input class="callback-form-field__input" type="tel" name="tel" id="tel" />
+              <span class="callback-form-field__icon">
+                <svg class="callback-form-field__input-icon" width="12" height="12">
                   <use href="./images/sprite.svg#icon-phone-black"></use>
                 </svg>
               </span>
             </label>
-            <label class="form-field">
-              <span class="callback-md-label-txt">Почта</span>
-              <input class="callback-md-input" type="email" name="email" id="email" />
-              <span class="callback-md-label-icon">
-                <svg class="md-form-input-icon" width="12" height="12">
+
+            <label class="callback-form-field">
+              <span class="callback-form-field__label-txt">Почта</span>
+              <input class="callback-form-field__input" type="email" name="email" id="email" />
+              <span class="callback-form-field__icon">
+                <svg class="callback-form-field__input-icon" width="12" height="12">
                   <use href="./images/sprite.svg#icon-email-black"></use>
                 </svg>
               </span>
             </label>
-            <label class="form-field">
-              <span class="callback-md-label-feedback">Комментарий</span>
-              <textarea class="textarea" name="feedback" id="feedback" rows="6" placeholder="Введите текст"> </textarea>
+
+            <label class="callback-form-field">
+              <span class="callback-form-field__feedback">Комментарий</span>
+              <textarea class="callback-form-field__textarea" name="feedback" id="feedback" rows="6" placeholder="Введите текст"> </textarea>
             </label>
-            <label class="md-license-label">
-              <input class="callback-md-check-original" type="checkbox" name="license" id="license" value="license" />
-              <span class="callback-md-check-custom"></span>
-              <span class="callback-md-check-txt">Соглашаюсь с рассылкой и принимаю</span>
-              <a href="" class="modal-license-link">Условия договора</a>
+
+            <label class="callback-form-license">
+              <input class="callback-form-license__check-original" type="checkbox" name="license" id="license" value="license" />
+              <span class="callback-form-license__check-custom"></span>
+              <span class="callback-form-license__check-txt">Соглашаюсь с рассылкой и принимаю</span>
+              <a href="" class="callback-form-license__link">Условия договора</a>
             </label>
+
             <div class="md-submit-btn-box">
               <button type="submit" class="md-submit-btn">Отправить</button>
             </div>
+
           </form>
         </div>
       </div>
     </main>
 
-    <!-- Footer section -->
+    <!-- Footer section -->  
 
     <footer class="footer">
       <div class="container footer-case">
         <address class="footer-address">
-          <a href="./index.html" class="footer-address__logo">Web <span class="footer-logo-2nd-part">studio</span></a>
+          <a href="./index.html" class="footer-address__logo">Web<span class="footer-address__logo--part">studio</span></a>
           <p class="footer-address__text">г. Киев, пр-т Леси Украинки, 26</p>
           <ul class="footer-address__list list">
             <li>
