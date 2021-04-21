@@ -118,7 +118,7 @@
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.01em;
-    color: rgba(161, 46, 46, 0.5);
+    color: $mainTxtColor;
   }
 }
 
@@ -159,13 +159,11 @@
 
   &__check-original:checked + &__check-custom {
     border-color: $alternativeColor;
-    background-image: url(/images/sprite.svg#icon-icon-check);
+    background-image: url(/images/check-full.svg);
     background-size: contain;
     background-origin: border-box;
   }
 }
-
-
 
 .md-submit-btn-box {
   text-align: center;
